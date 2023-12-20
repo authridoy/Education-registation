@@ -104,6 +104,9 @@ body{
   .font-16{
     font-size: 1rem !important;
   }
+  .font-20{
+    font-size: var(--font-size-h5) !important;
+  }
 
   h1, h2, h3, h4, h5, h6, p{
     margin: 0;
@@ -124,6 +127,9 @@ body{
 .py-spacing-3{
     padding-top: var(--spacing-3) !important;
     padding-bottom: var(--spacing-3) !important;
+}
+.mr-spacing-3{
+    margin-right: var(--spacing-3);
 }
 .pt-spacing-3{
     padding-top: var(--spacing-3) !important;
