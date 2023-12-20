@@ -162,6 +162,9 @@ body{
 .pr-spacing-17_5{
     padding-right: var(--spacing-17_5) !important;
 }
+.pt-spacing-18{
+    padding-top: var(--spacing-18) !important;
+}
 .pb-spacing-18{
     padding-bottom: var(--spacing-18) !important;
 }
@@ -170,6 +173,9 @@ body{
 /* margin */
 .mr-spacing-1_5{
     margin-right: var(--spacing-1_5) !important;
+}
+.mt-spacing-9{
+    margin-top: var(--spacing-9)!important;
 }
 
 .border{
@@ -185,6 +191,9 @@ body{
 .bs-gray{
     color: var(--bs-gray) !important;
 }
+.bg-gray-dark{
+    background-color: var(--bs-gray-dark) !important;
+}
 .bs-white{
     color: var(--bs-white) !important;
 }
@@ -198,9 +207,6 @@ body{
     background-color: var(--green-secondary) !important;
 }
 
-.bg-gray-dark{
-    background-color: var(--bs-gray-dark) !important;
-}
 .bg-deep-orange{
     background-color: var(--deep-orange) !important;
 }
@@ -310,6 +316,15 @@ input:focus{
     background-color: var(--green-secondary) !important;
 }
 
+/*=========== forgot password ==========*/
+.password-wrapper{
+    position: absolute;
+    background-image: url(/images/forgot-bottom-mask-group.png);
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+    display: block;
+}
 
 /*=============== responcive ===============*/
 @media screen and (max-width: 1200px){
