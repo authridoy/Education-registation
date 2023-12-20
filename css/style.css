@@ -192,6 +192,9 @@ body{
 .border-color{
     border-color: var(--border-color) !important;
 }
+.bg-white-secondary{
+    background-color: var(--white-secondary) !important;
+}
 
 /*===== radius =====*/
 
@@ -253,24 +256,30 @@ input:focus{
     border-color: var(--bs-gray);
 }
 
-
 .course-bg img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
-
 .course-content{
     position: absolute;
     bottom: 0;
     left: 0;
     max-width: 100%;
 }
-
 .review-frame{
     max-width: 100%;
 }
+
+
+/*=============================== educator ===============================*/
+
+.step-box a:hover,
+.step-box a:active{
+ background: var(--bs-gray-dark)!important;
+ color: var(--bs-white)!important;
+}
+
 
 
 
