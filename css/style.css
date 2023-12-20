@@ -110,6 +110,9 @@ body{
     margin: 0;
     padding: 0;
   } 
+  a{
+    text-decoration: none;
+  }
 
   /*===== padding =====*/
   
@@ -186,6 +189,9 @@ body{
 }
 .bg-deep-orange{
     background-color: var(--deep-orange) !important;
+}
+.bs-deep-orange{
+    color: var(--deep-orange) !important;
 }
 .bg-black{
     background-color: var(--black) !important;
