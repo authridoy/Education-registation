@@ -22,7 +22,6 @@ body{
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
     --bs-dark: #212529;
-    --color: ;
 
 
     --bs-white: #FFF;
@@ -287,15 +286,14 @@ input:focus{
  background: var(--bs-gray-dark)!important;
  color: var(--bs-white)!important;
 }
-.second-step-btnBox .second-step-btn{
+.btn-wrapper .second-step-btn{
     transition: all .3s;
 }
-.second-step-btnBox .second-step-btn:hover,
-.second-step-btnBox .second-step-btn:active{
+.btn-wrapper .second-step-btn:hover,
+.btn-wrapper .second-step-btn:active{
     color: var(--bs-white) !important;
     background-color: var(--green-secondary) !important;
 }
-
 
 
 /*=============== responcive ===============*/
