@@ -226,21 +226,12 @@ body{
 .line-height-137{
     line-height: 16px !important;
 }
+.line-height-22{
+    line-height: 22px !important;
+}
 
 /*=============== dropdown ===============*/
 
-
-
-.dropdown-btn:focus,
-.dropdown-btn:active,
-.dropdown-btn:focus-visible{
-    box-shadow: none!important;
-    outline: none;
-}
-.dropdown-btn:focus svg,
-.dropdown-btn:active svg{
-    rotate: -180deg;
-}
 
 /* input */
 
@@ -252,6 +243,7 @@ input:focus{
 .input-box input:focus-visible,
 .input-box input:focus{
     border: none!important;
+    box-shadow: none;
 }
 
 /* student form */
@@ -264,6 +256,9 @@ input:focus{
     outline: none;
     box-shadow: none;
     border-color: var(--bs-gray);
+}
+.student-form input:focus{
+    box-shadow: none;
 }
 
 .course-bg img{
@@ -288,7 +283,7 @@ input:focus{
     transition: all .3s;
 }
 .step-box a:hover,
-.step-box a:active{
+.step-box a.active{
  background: var(--bs-gray-dark)!important;
  color: var(--bs-white)!important;
 }

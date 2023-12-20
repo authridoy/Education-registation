@@ -11,7 +11,7 @@
 
     <section class="auth-section position-relative" style="background-image: url(images/Mask-group-2.png);">
         <div class="container">
-            <div class="row" style="height: 100vh;">
+            <div class="row">
                 <div class="col-lg-6 overflow-hidden form-column position-relative z-index-1">
                     <div class="pr-spacing-17_5 pr-lg-spacing-0 pr-sm-spacing-0 pb-spacing-18 pb-ls-spacing-8">
                         <div class="main-logo pb-5 pt-spacing-8">
@@ -45,9 +45,16 @@
                         </div>
                         <div class="pt-spacing-8 student-form">
                             <form>
-                                <div class="dropdown">
+                                <select class="form-select px-4 py-spacing-3 rounded-48 gray-dark fw-bold font-16 line-height-22" aria-label="Default select example">
+                                    <option selected>Student</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+
+                                <!-- <div class="dropdown">
                                     <button class="btn btn-secondary w-100 d-flex align-items-center justify-content-between no-arrow bg-white gray-dark fw-bold line-height-138 py-spacing-3 px-4 rounded-48 border-color dropdown-btn" type="button" id="studentdropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Student
+                                        
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" fill="none"><path d="M.241.746A.811.811 0 0 1 1.313.665l.092.08L8 7.474 14.595.746a.811.811 0 0 1 1.072-.081l.092.08a.852.852 0 0 1 .08 1.094l-.08.094-7.177 7.321a.811.811 0 0 1-1.072.081l-.092-.08L.241 1.932a.852.852 0 0 1 0-1.187Z" fill="#7C8A8F"/></svg>
                                     </button>
                                     <ul class="dropdown-menu w-100" aria-labelledby="studentdropdownMenu">
@@ -55,12 +62,12 @@
                                     <li><button class="dropdown-item" type="button">Another action</button></li>
                                     <li><button class="dropdown-item" type="button">Something else here</button></li>
                                     </ul>
-                                </div>
+                                </div> -->
                                 
-                                <input type="email" required placeholder="Email*" class="py-spacing-3 px-4 mt-3 border rounded-48 w-100 font-16 line-height-138">
+                                <input type="email" placeholder="Email*" class="form-control py-spacing-3 px-4 mt-3 border rounded-48 font-16 line-height-138">
 
-                                <div class="input-box d-flex align-items-center justify-content-between py-spacing-3 px-4 mt-3 border rounded-48">
-                                    <input type="password" required placeholder="Choose a password*" class="border-0 w-100 font-16 pr-spacing-2 line-height-138">
+                                <div class="input-box d-flex align-items-center justify-content-between py-spacing-3 px-4 mt-3 border rounded-48 line-height-137">
+                                    <input type="password" placeholder="Choose a password*" class="form-control border-0 font-16 p-0 line-height-138">
                                     <button type="button" class="bg-white border-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.288.005 10.002 0C5.862 0 2.129 2.923.061 7.706a.74.74 0 0 0 0 .588l.143.323c2.042 4.476 5.571 7.247 9.508 7.378l.286.005c4.14 0 7.873-2.923 9.941-7.706a.741.741 0 0 0-.003-.595l-.14-.313C17.75 2.9 14.22.136 10.289.005Zm-.279 1.484.24.005.266.014c3.197.227 6.138 2.597 7.914 6.49l-.009.025c-1.821 3.977-4.863 6.362-8.16 6.482l-.256.004-.257-.004-.266-.014c-3.098-.22-5.954-2.457-7.742-6.131l-.169-.361.157-.333C3.61 3.773 6.692 1.49 10.009 1.489Zm-.012 2.624c-2.16 0-3.911 1.74-3.911 3.887 0 2.146 1.75 3.886 3.91 3.886 2.161 0 3.913-1.74 3.913-3.886 0-2.147-1.752-3.887-3.912-3.887Zm0 1.49A2.404 2.404 0 0 1 12.409 8a2.404 2.404 0 0 1-2.412 2.395A2.403 2.403 0 0 1 7.586 8a2.403 2.403 0 0 1 2.41-2.396Z" fill="#7C8A8F"/></svg>
                                     </button>
@@ -69,7 +76,7 @@
                                     <a href="#" class="bs-deep-orange font-16 fw-normal">Forgot Password?</a>
                                 </div>
                                 
-                                <input type="submit" value="Log in" class="mt-spacing-8_5 w-100 py-spacing-3 px-4 rounded-32 bg-green-secondary border-0 bs-white fw-bold font-16">
+                                <input type="submit" value="Log in" class="form-control mt-spacing-8_5 py-spacing-3 px-4 rounded-32 bg-green-secondary border-0 bs-white fw-bold font-16">
 
                             </form>
                             <p class="gray-dark fw-normal font-16 text-center mt-3">Don't have an account <a href="#" class="green-secondary text-decoration-none fw-bold">Sign Up</a></p>
