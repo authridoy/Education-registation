@@ -45,9 +45,9 @@ body{
 
 
     /* font size */
-    --font-size-h2: 2rem; /* 32px */
     --font-size-h1: 2.5rem; /* 40px */
-
+    --font-size-h2: 2rem; /* 32px */
+    --font-size-h5: 1.25rem; /* 20px */
 
     /* padding */
 
@@ -91,6 +91,10 @@ body{
   .font-size-h2{
     font-size: var(--font-size-h2) !important;
   }
+  .font-size-h5{
+    font-size: var(--font-size-h5) !important;
+  }
+  
 
   .font-12{
     font-size: 12px !important;
@@ -102,7 +106,7 @@ body{
     font-size: 16px !important;
   }
 
-  h1, h2, h3, h4, p{
+  h1, h2, h3, h4, h5, h6, p{
     margin: 0;
     padding: 0;
   } 
@@ -274,13 +278,22 @@ input:focus{
 
 /*=============================== educator ===============================*/
 
+.step-box a{
+    transition: all .3s;
+}
 .step-box a:hover,
 .step-box a:active{
  background: var(--bs-gray-dark)!important;
  color: var(--bs-white)!important;
 }
-
-
+.second-step-btnBox .second-step-btn{
+    transition: all .3s;
+}
+.second-step-btnBox .second-step-btn:hover,
+.second-step-btnBox .second-step-btn:active{
+    color: var(--bs-white) !important;
+    background-color: var(--green-secondary) !important;
+}
 
 
 
